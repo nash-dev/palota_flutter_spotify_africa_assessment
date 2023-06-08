@@ -1,4 +1,4 @@
-class Category {
+/* class Category {
   final String href;
   final String name;
   final String type;
@@ -11,4 +11,17 @@ class Category {
     return Category(
         json['name'], json['href'], json['type'], json['icons'], json['id']);
   }
+}
+ */
+ 
+/*Use private fields*/
+
+class Category {
+  String? href;  
+  String? name;
+  String? type;
+  String? id;
+
+Category({this.href, this.name, this.type, this.id});
+
 }
