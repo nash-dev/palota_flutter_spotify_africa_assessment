@@ -68,22 +68,4 @@ class SpotifyCategory extends StatelessWidget {
       ),
     );
   }
-
-/*   void fetchAndDisplayPlaylists(BuildContext context) {
-    // Use your API handler to fetch playlists for the given categoryId
-    // Assuming `ApiHandler.getPlaylistsByCategory` returns a Future<List<Playlist>>
-    ApiHandler.getPlaylist(categoryId).then((playlists) {
-      // Once the playlists are fetched, navigate to a new screen to display them
-      Navigator.push(
-        context,
-        MaterialPageRoute(
-          builder: (context) => PlaylistScreen(playlists: playlists),
-        ),
-      );
-    }).catchError((error) {
-      // Handle error if the API call fails
-      // Display an error message or show a snackbar, for example
-      print('Failed to fetch playlists: $error');
-    });
-  } */
 }
